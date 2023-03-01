@@ -1,0 +1,208 @@
+:root {
+    --primary--font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --logo-color: #4D5AE5;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --footer-color: #E7E9FC;
+    --btn-menu: #FFFFFF;
+    --background-color: #404BBF;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--btn-menu);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--primary--font)
+}
+
+/*=============MAIN WEBSTUDIO=================*/
+.section-bg {
+    background-color: var(--primary-text-color);
+}
+
+.section-team {
+    background-color: #F4F4FD;
+    ;
+}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--btn-menu)
+}
+
+/*=============/MAIN WEBSTUDIO=================*/
+
+
+.description-title {
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-text-color)
+}
+
+/*=============SECTION TEAM=================*/
+.name-tile {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--primary-text-color)
+}
+
+.position-text {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--secondary-text-color)
+}
+
+/*=============/SECTION TEAM=================*/
+/*=============HEADER WEBSTUDIO/PORTFOLIO=================*/
+
+.logo-web {
+    color: var(--logo-color)
+}
+
+.header-logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+
+.address-list {
+    font-style: normal;
+}
+
+.contact link {
+    font-style: normal;
+}
+
+.menu-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+    ;
+}
+
+.contact {
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404BBF;
+}
+
+/*=============/HEADER WEBSTUDIO/PORTFOLIO=================*/
+
+/*================button PORTFOLIO================*/
+.btn-menu {
+    font-family: var(--primary--font);
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--btn-menu);
+    background-color: var(--logo-color);
+}
+
+.btn-menu:hover,
+.btn-menu:focus {
+    color: var(--btn-menu);
+    background: var(--background-color)
+}
+
+.btn-menu-portfolio {
+    font-family: var(--primary--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: var(--logo-color);
+    background-color: #F4F4FD;
+    ;
+}
+
+.btn-menu-portfolio:hover,
+.btn-menu-portfolio:focus {
+    color: var(--btn-menu);
+    background: var(--background-color)
+}
+
+/*================/button PORTFOLIO================*/
+
+/*================/INTERFACE PORTFOLIO================*/
+
+.interface-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color)
+}
+
+.interface-text {
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+
+.list-team {
+    background-color: #FFFFFF;
+    width: 264px;
+}
+
+/*================/INTERFACE PORTFOLIO================*/
+/*================FOOTER PORTFOLIO================*/
+
+.footer {
+    background-color: var(--primary-text-color);
+}
+
+.footer-logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: var(--btn-menu)
+}
+
+.footer-text {
+    letter-spacing: 0.02em;
+    color: var(--footer-color)
+}
+
+/*================/FOOTER PORTFOLIO================*/
